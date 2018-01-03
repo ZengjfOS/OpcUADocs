@@ -6,7 +6,7 @@
 
 ## server-example.py Hacking
 
-```Python
+```Shell
 zengjf@zengjf:~/zengjf/zengjfos/OpcUaDocs/python-opcua/examples$ python3 server-example.py 
 WARNING:opcua.server.binary_server_asyncio:Listening on 0.0.0.0:4840
 Available loggers are:  dict_keys(['opcua.server', 'opcua.server.address_space', 'opcua.server.server', 'opcua.server.event_generator', 'opcua.server.subscription_service', 'opcua.uaprotocol', 'opcua.ua.uatypes', 'opcua.common.xmlimporter', 'opcua.common.instantiate', 'asyncio', 'opcua.server.history', 'opcua.common.xmlparser', '__name__', 'opcua.server.internal_server', 'opcua.common.utils', 'opcua.common.copy_node', 'concurrent', 'concurrent.futures', 'opcua', 'opcua.common', 'opcua.server.binary_server_asyncio', 'opcua.ua'])
@@ -82,7 +82,7 @@ multiply_node = myobj.add_method(idx, "multiply", multiply, [ua.VariantType.Int6
   server.import_xml("custom_nodes.xml")
   ```
 * cat custom_nodes.xml 
-  ```Python
+  ```XML
   <?xml version="1.0" encoding="utf-8"?>
   <UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.02" LastModified="2013-03-06T05:36:44.0862658Z" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">
   
@@ -130,7 +130,7 @@ multiply_node = myobj.add_method(idx, "multiply", multiply, [ua.VariantType.Int6
 
 ## client-example.py
 
-```Python
+```Shell
 zengjf@zengjf:~/zengjf/zengjfos/OpcUaDocs/python-opcua/examples$ python3 client-example.py 
 Root node is:  Node(TwoByteNodeId(i=84))
 Objects node is:  Node(TwoByteNodeId(i=85))
