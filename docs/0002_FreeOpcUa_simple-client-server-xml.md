@@ -13,7 +13,7 @@
 
 ### Server
 
-```
+```Shell
 aplex@aplex:~/zengjf/zengjfos/OpcUaDocs/python-opcua/examples/simple-client-server-xml$ python3 server.py 
 Listening on 0.0.0.0:40840
 Python 3.5.2+ (default, Sep 22 2016, 12:18:14) 
@@ -29,7 +29,7 @@ Cleanup client connection:  ('127.0.0.1', 50448)
 
 ### Client
 
-```
+```Shell
 aplex@aplex:~/zengjf/zengjfos/OpcUaDocs/python-opcua/examples/simple-client-server-xml$ python3 client_minimal.py 
 Root node is:  Node(TwoByteNodeId(i=84))
 Objects node is:  Node(TwoByteNodeId(i=85))
@@ -45,7 +45,7 @@ I'm happy
 
 ## XML
 
-```
+```XML
 <?xml version='1.0' encoding='utf-8'?>
 <UANodeSet xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Aliases>
