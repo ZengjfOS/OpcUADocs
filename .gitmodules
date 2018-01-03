@@ -1,0 +1,3 @@
+[submodule "python-opcua"]
+	path = python-opcua
+	url = https://github.com/FreeOpcUa/python-opcua
