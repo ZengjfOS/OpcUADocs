@@ -6,7 +6,8 @@
 
 ## Docs
 
-* [docs/0001_FreeOpcUa_opcua-client-gui_Check.md](docs/0001_FreeOpcUa_opcua-client-gui_Check.md)
+* [docs/0003_OpcUa_WireShark_Protocol_Capture.md](docs/0003_OpcUa_WireShark_Protocol_Capture.md)
 * [docs/0002_FreeOpcUa_simple-client-server-xml.md](docs/0002_FreeOpcUa_simple-client-server-xml.md)
+* [docs/0001_FreeOpcUa_opcua-client-gui_Check.md](docs/0001_FreeOpcUa_opcua-client-gui_Check.md)
 
 
