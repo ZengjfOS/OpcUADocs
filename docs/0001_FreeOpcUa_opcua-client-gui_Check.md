@@ -1,5 +1,10 @@
 # FreeOpcUa opcua-client-gui Check
 
+## Source Code 
+
+* https://github.com/FreeOpcUa/python-opcua/blob/master/examples/client-example.py
+* https://github.com/FreeOpcUa/python-opcua/blob/master/examples/server-example.py
+
 ## opcua-client-gui
 
 ![img/FreeOpcUa_opcua-client-gui_Connect_UI.png](img/FreeOpcUa_opcua-client-gui_Connect_UI.png)

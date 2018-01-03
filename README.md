@@ -7,5 +7,6 @@
 ## Docs
 
 * [docs/0001_FreeOpcUa_opcua-client-gui_Check.md](docs/0001_FreeOpcUa_opcua-client-gui_Check.md)
+* [docs/0002_FreeOpcUa_simple-client-server-xml.md](docs/0002_FreeOpcUa_simple-client-server-xml.md)
 
 
