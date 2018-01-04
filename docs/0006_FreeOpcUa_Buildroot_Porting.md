@@ -2,6 +2,11 @@
 
 * FreeOpcUa Python版本是纯粹的Python软件包，所以不需要另外交叉编译，所以这里采用板上直接安装的方式进行处理；
 * Buildroot不支持在线安装支持包，所以要分析setup.py文件依赖的软件包，需要提前安装好；
+* ARM平台上FreeOpcUa的启动速度没有X86上那么快，需要等启动信息输出了在进行访问、测试；
+
+## 参考文档：
+
+* [ImportError: No module named 'xml'](http://www.cnblogs.com/zengjfgit/p/8192305.html)
 
 ## cat setup.py 
 
