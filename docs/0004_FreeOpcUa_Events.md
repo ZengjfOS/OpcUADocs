@@ -12,7 +12,7 @@
 ```Python
 # Creating a custom event: Approach 1
 # The custom event object automatically will have members from its parent (BaseEventType)
-etype = server.create_custom_event_type(idx, 'MyFirstEvent', ua.ObjectIds.BaseEventType, [('MyNumericProperty', ua.VariantType.Float), ('MyStr    ingProperty', ua.VariantType.String)])
+etype = server.create_custom_event_type(idx, 'MyFirstEvent', ua.ObjectIds.BaseEventType, [('MyNumericProperty', ua.VariantType.Float), ('MyStringProperty', ua.VariantType.String)])
 
 myevgen = server.get_event_generator(etype, myobj)
 

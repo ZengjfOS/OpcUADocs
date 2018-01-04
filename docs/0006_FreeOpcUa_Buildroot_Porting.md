@@ -378,4 +378,4 @@ DEBUG:opcua.server.internal_subscription.78:delete monitored items [112]
 
 ## opcua-client-gui
 
-
+![img/FreeOpcUa_Remote_Events_Subscription.png](img/FreeOpcUa_Remote_Events_Subscription.png)
