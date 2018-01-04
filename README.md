@@ -8,6 +8,7 @@
 
 ## Docs
 
+* [docs/0006_FreeOpcUa_Buildroot_Porting.md](docs/0006_FreeOpcUa_Buildroot_Porting.md)
 * [docs/0005_FreeOpcUa_Methods.md](docs/0005_FreeOpcUa_Methods.md)
 * [docs/0004_FreeOpcUa_Events.md](docs/0004_FreeOpcUa_Events.md)
 * [docs/0003_OpcUa_WireShark_Protocol_Capture.md](docs/0003_OpcUa_WireShark_Protocol_Capture.md)
