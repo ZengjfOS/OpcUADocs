@@ -6,13 +6,13 @@
 ## cat setup.py 
 
 ```Python
-from setuptools import setup, find_packages								# 让Buildroot Python支持setuptools，Python内核要支持xml
+from setuptools import setup, find_packages                             # 让Buildroot Python支持setuptools，Python内核要支持xml
 
 import sys
 
-install_requires = ["python-dateutil", "pytz", "lxml"]					# 选择好这些依赖模块
+install_requires = ["python-dateutil", "pytz", "lxml"]                  # 选择好这些依赖模块
 if sys.version_info[0] < 3:
-    install_requires.extend(["enum34", "trollius", "futures"])			# 版本小于3，要支持这些模块
+    install_requires.extend(["enum34", "trollius", "futures"])          # 版本小于3，要支持这些模块
 
 setup(name="opcua",
       version="0.90.4",
@@ -25,7 +25,7 @@ setup(name="opcua",
       license="GNU Lesser General Public License v3 or later",
       install_requires=install_requires,
       extras_require={
-          'encryption': ['cryptography']								# 额外需要支持的加密模块
+          'encryption': ['cryptography']                                # 额外需要支持的加密模块
       },
       classifiers=["Programming Language :: Python",
                    "Programming Language :: Python :: 3",
