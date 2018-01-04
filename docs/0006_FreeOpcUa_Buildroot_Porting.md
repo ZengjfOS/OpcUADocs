@@ -326,6 +326,23 @@ Finished processing dependencies for opcua==0.90.4
 ## Command Line Test FreeOpcUa
 
 ```Shell
+# ifconfig
+eth0      Link encap:Ethernet  HWaddr 1E:ED:19:27:1A:B3
+          inet addr:192.168.1.202  Bcast:0.0.0.0  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:606 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:537 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:92379 (90.2 KiB)  TX bytes:114995 (112.2 KiB)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:5396 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5396 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:408802 (399.2 KiB)  TX bytes:408802 (399.2 KiB)
+
 # ls
 certificate-example.der           server-callback.py
 client-events.py                  server-custom-object.py
